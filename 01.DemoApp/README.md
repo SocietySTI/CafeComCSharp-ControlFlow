@@ -37,7 +37,7 @@ Esta demo está construída, utilizando apenas um projeto `Console Application`.
 ###Comandos	
 A camada ```00_Apresentacao``` define diversos *comandos*, os quais representam ações que o usuário pode fazer no sistema. Por exemplo, o usuário pode se cadastrar no sistema, tal funcionalidade é controlada por um comando específico, que poderia ser ***RealizarCadastro***.
 
-Cada comando é uma classe, que implementa o código necessário para realizar determinada tarefa. E para abstrair o que qualquer comando deveria fazer, todos comandos devem implementar a interface [IComando] (01.DemoApp\00_Apresentacao\Interfaces\IComando.cs). Tal interface, define apenas um método ```Executar()```.
+Cada comando é uma classe, que implementa o código necessário para realizar determinada tarefa. E para abstrair o que qualquer comando deveria fazer, todos comandos devem implementar a interface [IComando] (01.DemoApp/00_Apresentacao/Interfaces/IComando.cs). Tal interface, define apenas um método ```Executar()```.
 
 Com isso, a interface pode simplesmente trabalhar com a abstração dos comandos, chamando apenas o método ```Executar()``` sem se preocupar com os detalhes da implementação do comando.
 A forma que os comandos são utilizados pela aplicação é através da classe
