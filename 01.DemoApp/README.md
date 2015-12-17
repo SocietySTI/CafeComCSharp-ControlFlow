@@ -1,15 +1,18 @@
-#Aplicação demo
-Aplicação para exemplificar conceitos como: Separação de responsabilidades, desenvolvimento em camdas, injeção de dependencia.
-foco deste demo será construir algumas funcionalidades para exercicitar alguns conceitos e posteriormente aplicar padrões de projeto para melhorar a leitura do código e complexidade.
+# Aplicação demo
+Aplicação para exemplificar conceitos como: ***Separação de responsabilidades***, ***desenvolvimento em camdas***, ***injeção de dependencia***.
 
-##Funcionalidades implementadas
+O foco deste demo será construir algumas funcionalidades para exercicitar alguns conceitos e posteriormente aplicar padrões de projeto para melhorar a leitura do código e complexidade.
+
+## Funcionalidades implementadas
 Neste momento está implementado, as seguintes funcionalidades neste demo:
+
 1. Registro de usuários
 2. Login de usuários
 3. Depósito na conta de um usuário        
 
 ##Funcionalidades para implementar
 Deverá ser implementado, em demais lições:
+
 1. Saque de valor da conta do usuário
 2. Compra de produtos através de débito na conta do usuário
 3. Logout
